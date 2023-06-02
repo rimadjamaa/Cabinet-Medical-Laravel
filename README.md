@@ -62,8 +62,8 @@ Password: 123456789
 
 ## NoUser:
 
-![Example Image](/img/Medical-Center.png)
+![Example Image](/images/Medical-Center.png)
 
 ## Assistante:
 
-![Example Image](/img/Medical-Center2.png)
+![Example Image](/images/Medical-Center2.png)
