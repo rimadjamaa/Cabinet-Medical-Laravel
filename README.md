@@ -62,8 +62,8 @@ Password: 123456789
 
 ## NoUser:
 
-![Example Image](Cabinet-Medical-Laravel\public\images\Medical-Center.png)
+![Example Image](https://github.com/rimadjamaa/Cabinet-Medical-Laravel/blob/main/public/images/Medical-Center.png)
 
 ## Assistante:
 
-![Example Image](Cabinet-Medical-Laravel\public\images\Medical-Center2.png)
+![Example Image](https://github.com/rimadjamaa/Cabinet-Medical-Laravel/blob/main/public/images/Medical-Center2.png)
