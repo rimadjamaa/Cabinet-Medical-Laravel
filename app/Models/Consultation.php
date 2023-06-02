@@ -8,44 +8,24 @@ use Illuminate\Database\Eloquent\Model;
 class Consultation extends Model
 {
     use HasFactory;
-    protected $fillable = [
-        'nom_pat',
-        'prenom_pat',
-        'nom_med',
-        'prenom_med',
-        'motif',
-        'taille',
-        'pois',
-        'tension',
-        'temperatur',
-        'examen',
-        'conclusion',
-        'date',
-        'heure '
-    ];
 
-    //une consultation n'appartient qu'à un patient
-    public function Patient()
+    public function medcin()
+    {
+        return $this->belongsTo(Medcin::class);
+    }
+
+    public function patient()
     {
         return $this->belongsTo(Patient::class);
     }
 
-    //une consultation n'a remplir que par un seul medecin
-    public function Medecin()
+    public function ordenance()
     {
-        return $this->belongsTo(Medecin::class);
+        return $this->hasOne(Ordenance::class);
     }
 
-    //une consultation a une certificat
-    public function Certificat()
+    public function certificat()
     {
         return $this->hasOne(Certificat::class);
     }
-
-    //une consultation a plusieurs Ordonnances
-    public function Ordonnance()
-    {
-        return $this->hasMany(Ordonnance::class);
-    }
-
 }
