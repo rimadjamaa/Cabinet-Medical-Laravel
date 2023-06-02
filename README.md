@@ -15,7 +15,7 @@ the project is a web application designed to facilitate the management and organ
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/assistance-ordonnance.git
+   git clone [https://github.com/your-username/assistance-ordonnance.git](https://github.com/rimadjamaa/Cabinet-Medical-Laravel.git)
 
 2. Navigate to the project directory:
 
