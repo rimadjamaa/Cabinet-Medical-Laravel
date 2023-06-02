@@ -62,8 +62,8 @@ Password: 123456789
 
 ## NoUser:
 
-![Example Image](/images/Medical-Center.png)
+![Example Image](Cabinet-Medical-Laravel\public\images\Medical-Center.png)
 
 ## Assistante:
 
-![Example Image](/images/Medical-Center2.png)
+![Example Image](Cabinet-Medical-Laravel\public\images\Medical-Center2.png)
