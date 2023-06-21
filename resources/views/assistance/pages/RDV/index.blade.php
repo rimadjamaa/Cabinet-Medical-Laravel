@@ -43,9 +43,9 @@
                 <td>{{ $rdv->duration }}</td>
                 <td>{{ $rdv->location }}</td>
                 <td>
-                    @if ($rdv->status === 'Donne')
+                    @if ($rdv->status === 'done')
                         <span class="badge bg-success">Done</span>
-                    @elseif ($rdv->status === 'Pennding')
+                    @elseif ($rdv->status === 'pending')
                         <span class="badge bg-warning text-dark">Pending</span>
                     @endif
                 </td>
